@@ -10,7 +10,7 @@ def app():
     children = st.slider("Children", 0, 10)
     region = st.selectbox("Region", ["northwest", "northeast", "southeast", "southwest"])
     sex = st.radio("Sex", ["Male", "Female"])
-    smoker = st.radio("Somker", ["Yes", "No"])
+    smoker = st.radio("Smoker", ["Yes", "No"])
 
     if (region == "northwest"):
         region = 0
